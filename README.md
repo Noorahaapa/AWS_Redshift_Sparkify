@@ -18,7 +18,7 @@ For running first create tables by running create_tables.py. This creates tables
 ## Datasets
 
 The songs data contains metadata of songs in JSON format. Here is an example of the songs data:
-
+ ```
  {
    "num_songs": 1, 
    "artist_id": 
@@ -32,9 +32,9 @@ The songs data contains metadata of songs in JSON format. Here is an example of 
    "duration": 152.92036, 
    "year": 0
   }
-
+ ``` 
 The log files contain information on what and how the end user was listening to in JSON. Here is an example of a log file
-  
+  ``` 
   {
   "artist":null,
   "auth":"Logged In",
@@ -55,7 +55,7 @@ The log files contain information on what and how the end user was listening to 
   "userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143     Safari\/537.36\"",
   "userId":"39"
   }
-
+  ``` 
 ## Description of files in repository
 
 **sql_queries.py** 
